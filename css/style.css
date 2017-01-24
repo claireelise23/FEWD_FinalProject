@@ -1,0 +1,817 @@
+body {
+  background-color: #dde5d9;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  font-size: 22px;
+}
+
+.logo_section {
+  text-align: center;
+  background-color: #82a684;
+  height: 225px;
+  margin-bottom: 0;
+  transition: all 0.4s ease;
+}
+
+.section_1 {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 50px;
+  height: 50px;
+  margin-top: 0;
+}
+
+ul {
+  background-color: #426151;
+  list-style: none;
+  text-align: center;
+  padding-right: 25px;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-variant: small-caps;
+  margin-top: 0;
+  margin-right: 0;
+  padding-right: 20px;
+  padding-left: 50px;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.FloralBackground {
+  background-image: url("../images/FloralProduction.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: auto;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 0px;
+}
+
+.FoodSafetyBackground {
+  background-image: url("../images/FoodSafety.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: auto;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 0px;
+}
+
+.HerbBackground {
+  background-image: url("../images/HerbProduction.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: auto;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 0px;
+}
+
+.HomepageBackground {
+  background-image: url("../images/tomatoes.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: auto;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 0px;
+}
+
+.divider {
+  height: 50px;
+  background-color: #dde5d9;
+}
+
+.OurPartnersBackground {
+  background-image: url("../images/Partners.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: auto;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 0px;
+}
+
+.OurStoryBackground {
+  background-image: url("../images/beginning.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: auto;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 0px;
+}
+
+.VegetableBackground {
+  background-image: url("../images/VegetableProduction.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: auto;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 0px;
+}
+
+.IntroBox {
+  float: right;
+  height: 70%;
+  opacity: 0.75;
+  width: 28%;
+  background-color: #b8ccaf;
+  margin: 25px;
+  padding: 20px 10px;
+}
+
+.IntroBoxTitle {
+  font-family: 'Amatic SC', cursive;
+  font-style: bold 700;
+  font-size: 48px;
+  color: black;
+}
+
+.IntroBoxText {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: black;
+  opacity: 1;
+}
+
+.section_3 {
+  height: 300px;
+}
+
+h2 {
+  background-color: #b8ccaf;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-style: 700;
+  font-size: 60px;
+  margin-left: 485;
+  opacity: 0.75;
+  width: 25%;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+
+.section_3 {
+  height: auto;
+}
+
+.FoodTitle {
+  background-color: #b8ccaf;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-style: 700;
+  font-size: 60px;
+  margin-left: 385;
+  opacity: 0.75;
+  width: 40%;
+}
+
+.VegTitle {
+  background-color: #b8ccaf;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-style: 700;
+  font-size: 60px;
+  margin-left: 425;
+  opacity: 0.75;
+  width: 35%;
+}
+
+.ContactUs {
+  background-image: url("../images/FooterBack.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: auto;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 0px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-variant: small-caps;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.ContactInfo {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+/*RESPONSIVE DESIGN*/
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .logo_section {
+    width: 100%;
+  }
+
+  .HomepageBackground {
+    padding-top: 200px;
+    margin-bottom: 200px;
+  }
+
+  .IntroBox {
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .IntroBoxTitle {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-style: 700;
+    height: auto;
+    position: relative;
+    background-color: transparent;
+  }
+
+  .IntroBoxText {
+    font-size: 18px;
+    padding-top: 10px;
+    opacity: 1;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  ul {
+    background-color: #426151;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px;
+    font-variant: small-caps;
+    color: white;
+    margin-top: 0;
+    margin-right: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .Background {
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 100%;
+  }
+
+  .Title {
+      align-content: center;
+      background-color: #b8ccaf;
+      color: black;
+      font-family: 'Amatic SC', cursive;
+      font-style: 700;
+      font-size: 40px;
+      opacity: 0.75;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+  .Content {
+      margin-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+  h3 {
+    align-content: center;
+  }
+
+  footer {
+    padding-top: 25px;
+    }
+  }
+
+
+
+@media (min-width: 480px) and (max-width: 768px){
+
+  .logo_section {
+    width: 100%;
+  }
+
+  .HomepageBackground {
+    padding-top: 200px;
+    margin-bottom: 200px;
+  }
+
+  .IntroBox {
+    height: 75px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .IntroBoxTitle {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-style: 700;
+    height: auto;
+    position: relative;
+    background-color: transparent;
+  }
+
+  .IntroBoxText {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  ul {
+    background-color: #426151;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-variant: small-caps;
+    color: white;
+    margin-top: 0;
+    margin-right: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .Background {
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+  }
+
+  .Title {
+      align-content: center;
+      background-color: #b8ccaf;
+      color: black;
+      font-family: 'Amatic SC', cursive;
+      font-style: 700;
+      font-size: 50px;
+      opacity: 0.75;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+  .Content {
+      font-size: 20px;
+      margin-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+  h3 {
+    align-content: center;
+  }
+
+  footer {
+    padding-top: 25px;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .logo_section {
+    width: 100%;
+  }
+
+  .HomepageBackground {
+    background-image: url("../images/tomatoes.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .IntroBox {
+    float: right;
+    height: 55%;
+    opacity: 0.75;
+    width: 45%;
+    background-color: #b8ccaf;
+    margin: 25px;
+    padding-bottom: 50px;
+  }
+
+  .IntroBoxTitle {
+    font-family: 'Amatic SC', cursive;
+    font-style: bold 700;
+    font-size: 45px;
+    color: black;
+  }
+
+  .IntroBoxText {
+    font-size: 15px;
+    color: black;
+    opacity: 1;
+  }
+
+  ul {
+    background-color: #426151;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-variant: small-caps;
+    color: white;
+    padding-right: 10px;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-right: 0;
+    text-decoration: none;
+  }
+
+  .Background {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .Title {
+      align-content: center;
+      background-color: #b8ccaf;
+      color: black;
+      font-family: 'Amatic SC', cursive;
+      font-style: 700;
+      font-size: 50px;
+      opacity: 0.75;
+      margin: 0 auto;
+      width: 35%;
+    }
+
+  .Content {
+      font-size: 20px;
+      margin-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+  h3 {
+    align-content: center;
+  }
+
+  footer {
+    padding-top: 25px;
+    }
+  }
+
+@media (min-width: 960px) and (max-width: 1200px) {
+  .logo_section {
+    width: 100%;
+  }
+
+  .HomepageBackground {
+    background-image: url("../images/tomatoes.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: auto;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 150px;
+  }
+
+  .IntroBox {
+    float: right;
+    height: 100%;
+    opacity: 0.75;
+    width: 28%;
+    background-color: #b8ccaf;
+    margin: 25px;
+    padding: 20px 10px;
+  }
+
+  .IntroBoxTitle {
+    font-family: 'Amatic SC', cursive;
+    font-style: bold 700;
+    font-size: 48px;
+    color: black;
+  }
+
+  .IntroBoxText {
+    font-size: 20px;
+    color: black;
+    opacity: 1;
+  }
+
+  ul {
+    background-color: #426151;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-variant: small-caps;
+    color: white;
+    margin-top: 0;
+    margin-right: 0;
+    padding-right: 10px;
+    padding-left: 40px;
+    text-decoration: none;
+  }
+
+  .Background {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .Title {
+      align-content: center;
+      background-color: #b8ccaf;
+      color: black;
+      font-family: 'Amatic SC', cursive;
+      font-style: 700;
+      font-size: 50px;
+      opacity: 0.75;
+      margin: 0 auto;
+      width: 35%;
+    }
+
+  .Content {
+      font-size: 20px;
+      margin-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+  h3 {
+    align-content: center;
+  }
+
+  footer {
+    padding-top: 25px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+
+    body {
+      background-color: #dde5d9;
+    }
+
+    .logo_section {
+      text-align: center;
+      background-color: #82a684;
+      height: 225px;
+      margin-bottom: 0;
+      transition: all 0.4s ease;
+    }
+
+    .section_1 {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      line-height: 50px;
+      height: 50px;
+      margin-top: 0;
+    }
+
+    ul {
+      background-color: #426151;
+      list-style: none;
+      text-align: center;
+      padding-right: 25px;
+      margin: 0;
+    }
+
+    li {
+      display: inline-block;
+      font-family: 'Oswald', sans-serif;
+      font-variant: small-caps;
+      margin-top: 0;
+      margin-right: 0;
+      padding-right: 20px;
+      padding-left: 50px;
+      text-decoration: none;
+    }
+
+    a:link {
+      text-decoration: none;
+      color: white;
+    }
+
+    a:visited {
+      text-decoration: none;
+      color: white;
+    }
+
+    .FloralBackground {
+      background-image: url("../images/FloralProduction.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 300px;
+      width: auto;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 0px;
+    }
+
+    .FoodSafetyBackground {
+      background-image: url("../images/FoodSafety.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 300px;
+      width: auto;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 0px;
+    }
+
+    .HerbBackground {
+      background-image: url("../images/HerbProduction.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 300px;
+      width: auto;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 0px;
+    }
+
+    .HomepageBackground {
+      background-image: url("../images/tomatoes.jpeg");
+      background-position: center;
+      background-size: cover;
+      height: 300px;
+      width: auto;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 0px;
+    }
+
+    .divider {
+      height: 50px;
+      background-color: #dde5d9;
+    }
+
+    .OurPartnersBackground {
+      background-image: url("../images/Partners.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 300px;
+      width: auto;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 0px;
+    }
+
+    .OurStoryBackground {
+      background-image: url("../images/beginning.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 300px;
+      width: auto;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 0px;
+    }
+
+    .VegetableBackground {
+      background-image: url("../images/VegetableProduction.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 300px;
+      width: auto;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 0px;
+    }
+
+    .IntroBox {
+      float: right;
+      height: 70%;
+      opacity: 0.75;
+      width: 28%;
+      background-color: #b8ccaf;
+      margin: 25px;
+      padding: 20px 10px;
+    }
+
+    .IntroBoxTitle {
+      font-family: 'Amatic SC', cursive;
+      font-style: bold 700;
+      font-size: 48px;
+      color: black;
+    }
+
+    .IntroBoxText {
+      font-size: 20px;
+      color: black;
+      opacity: 1;
+    }
+
+    .section_3 {
+      height: 300px;
+    }
+
+    h2 {
+      background-color: #b8ccaf;
+      color: black;
+      font-family: 'Amatic SC', cursive;
+      font-style: 700;
+      font-size: 60px;
+      margin-left: 485;
+      opacity: 0.75;
+      width: 25%;
+    }
+
+    .FoodTitle {
+      background-color: #b8ccaf;
+      color: black;
+      font-family: 'Amatic SC', cursive;
+      font-style: 700;
+      font-size: 60px;
+      margin-left: 385;
+      opacity: 0.75;
+      width: 40%;
+    }
+
+    .VegTitle {
+      background-color: #b8ccaf;
+      color: black;
+      font-family: 'Amatic SC', cursive;
+      font-style: 700;
+      font-size: 60px;
+      margin-left: 425;
+      opacity: 0.75;
+      width: 35%;
+    }
+
+    .ContactUs {
+      background-image: url("../images/FooterBack.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 200px;
+      width: auto;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 0px;
+      color: white;
+      font-family: 'Oswald', sans-serif;
+      font-size: 24px;
+      font-variant: small-caps;
+      padding-top: 10px;
+      text-align: center;
+    }
+
+    .ContactInfo {
+      font-size: 20px;
+      text-align: center;
+      color: white;
+    }
+  }
