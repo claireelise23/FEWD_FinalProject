@@ -6,27 +6,40 @@ $(document).ready(function(){
 });
 
 var headerWaypoint = new Waypoint({
-    element: document.getElementById('OS'),
-    handler: function(direction) {
-      console.log ("hello");
-      if (direction === 'down') {
-        $('head').delay(500).fadeIn();
-      }
-      if (direction === 'up') {
-        $('head').delay(500).fadeOut();
-      }
-    },
-    // offset: 350
-  });
+  element: document.getElementById('OS'),
+  handler: function(direction) {
+    console.log('bodie')
+    if (direction === 'down') {
+      // $('.stickyheader').removeClass('displaynone');
+      $('#head').delay(200).fadeIn();
+    }
+  }
+  // ,
+  // offset: 350
+});
 
 ////////////
+var headerWaypoint = new Waypoint({
+  element: document.getElementById('marker'),
+  handler: function(direction) {
+    console.log('test')
+    if (direction === 'down') {
+      // $('.stickyheader').removeClass('displaynone');
+      $('#head').delay(200).fadeIn();
+    }
+    // if (direction === 'up') {
+    //   $('#head').delay(500).fadeOut();
+    // }
+  }
+  // ,
+  // offset: 350
+});
+
 $("#OurStory").click(function() {
   console.log("test");
   $("html, body").animate({ scrollTop: $("#OS").offset().top}, "slow");
   return false;
 });
-
-// switch the ids and make sure that the title has an a tag
 
 $("#OurPartners").click(function() {
   console.log("test");
@@ -46,6 +59,13 @@ $("#HerbPro").click(function() {
   return false;
 });
 
+$("#plug").click(function() {
+  console.log("test");
+  $("html, body").animate({ scrollTop: $("#CU").offset().top}, "slow");
+  return false;
+});
+
+
 $("#VegPro").click(function() {
   console.log("test");
   $("html, body").animate({ scrollTop: $("#VP").offset().top}, "slow");
@@ -55,5 +75,10 @@ $("#VegPro").click(function() {
 $("#Food").click(function() {
   console.log("test");
   $("html, body").animate({ scrollTop: $("#FS").offset().top}, "slow");
+  return false;
+});
+
+$(".Title").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
   return false;
 });

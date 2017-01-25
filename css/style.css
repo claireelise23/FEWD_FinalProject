@@ -46,11 +46,13 @@ li {
 a:link {
   text-decoration: none;
   color: white;
+  opacity: 1;
 }
 
 a:visited {
   text-decoration: none;
   color: white;
+  opacity: 1;
 }
 
 .FloralBackground {
@@ -140,7 +142,7 @@ a:visited {
   height: 70%;
   opacity: 0.75;
   width: 28%;
-  background-color: #b8ccaf;
+  background-color: #426151;
   margin: 25px;
   padding: 20px 10px;
 }
@@ -149,22 +151,23 @@ a:visited {
   font-family: 'Amatic SC', cursive;
   font-style: bold 700;
   font-size: 48px;
-  color: black;
+  color: white;
+  opacity: 1;
 }
 
 .IntroBoxText {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
-  color: black;
+  color: white;
   opacity: 1;
 }
 
 .section_3 {
-  height: 300px;
+  height: auto;
 }
 
 h2 {
-  background-color: #b8ccaf;
+  background-color: #426151;
   color: black;
   font-family: 'Amatic SC', cursive;
   font-style: 700;
@@ -177,6 +180,9 @@ h2 {
 h3 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 25px;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .section_3 {
@@ -184,7 +190,7 @@ h3 {
 }
 
 .FoodTitle {
-  background-color: #b8ccaf;
+  background-color: #426151;
   color: black;
   font-family: 'Amatic SC', cursive;
   font-style: 700;
@@ -195,7 +201,7 @@ h3 {
 }
 
 .VegTitle {
-  background-color: #b8ccaf;
+  background-color: #426151;
   color: black;
   font-family: 'Amatic SC', cursive;
   font-style: 700;
@@ -205,6 +211,12 @@ h3 {
   width: 35%;
 }
 
+.Content {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
 .ContactUs {
   background-image: url("../images/FooterBack.jpg");
   background-position: center;
@@ -212,7 +224,7 @@ h3 {
   height: 200px;
   width: auto;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 250px;
   padding-bottom: 0px;
   color: white;
   font-family: 'Oswald', sans-serif;
@@ -228,6 +240,17 @@ h3 {
   color: white;
 }
 
+#link {
+  color: #426151;
+  font-weight: bold;
+}
+
+#plug {
+  color: #426151;
+  font-weight: bold;
+}
+
+
 /*RESPONSIVE DESIGN*/
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .logo_section {
@@ -235,6 +258,7 @@ h3 {
   }
 
   .HomepageBackground {
+    height: 300px;
     padding-top: 200px;
     margin-bottom: 200px;
   }
@@ -247,18 +271,20 @@ h3 {
   }
 
   .IntroBoxTitle {
-    color: black;
+    color: white;
     font-family: 'Amatic SC', cursive;
     font-style: 700;
     height: auto;
+    opacity: 1;
     position: relative;
     background-color: transparent;
   }
 
   .IntroBoxText {
+    color: black;
     font-size: 18px;
     padding-top: 10px;
-    opacity: 1;
+    opacity: 1
   }
 
   p {
@@ -267,21 +293,27 @@ h3 {
 
   ul {
     background-color: #426151;
+    height: 100px;
     list-style: none;
-    text-align: left;
+    text-align: center;
     padding: 0;
+    position: relative;
+    z-index: 10;
     margin: 0;
   }
 
   li {
     display: inline-block;
     font-family: 'Oswald', sans-serif;
-    font-size: 11px;
+    font-size: 15px;
     font-variant: small-caps;
     color: white;
     margin-top: 0;
     margin-right: 0;
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 10px;
+    padding-left: 10px;
     text-decoration: none;
   }
 
@@ -294,7 +326,7 @@ h3 {
 
   .Title {
       align-content: center;
-      background-color: #b8ccaf;
+      background-color: #426151;
       color: black;
       font-family: 'Amatic SC', cursive;
       font-style: 700;
@@ -306,17 +338,31 @@ h3 {
 
   .Content {
       margin-top: 20px;
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
 
   h3 {
     align-content: center;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   footer {
     padding-top: 25px;
     }
+
+    #link {
+      color: #426151;
+      font-weight: bold;
+    }
+
+    #plug {
+      color: #426151;
+      font-weight: bold;
+    }
+
   }
 
 
@@ -333,6 +379,7 @@ h3 {
   }
 
   .IntroBox {
+    color: black;
     height: 75px;
     width: 100%;
     margin: 0;
@@ -340,24 +387,30 @@ h3 {
   }
 
   .IntroBoxTitle {
-    color: black;
+    color: white;
     font-family: 'Amatic SC', cursive;
     font-style: 700;
     height: auto;
+    opacity: 1;
     position: relative;
     background-color: transparent;
   }
 
   .IntroBoxText {
+    color: black;
     font-size: 20px;
     padding-top: 10px;
+    opacity: 1;
   }
 
   ul {
     background-color: #426151;
+    height: 100px;
     list-style: none;
     text-align: center;
     padding: 0;
+    position: relative;
+    z-index: 10;
     margin: 0;
   }
 
@@ -369,7 +422,10 @@ h3 {
     color: white;
     margin-top: 0;
     margin-right: 0;
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 10px;
+    padding-left: 10px;
     text-decoration: none;
   }
 
@@ -382,7 +438,7 @@ h3 {
 
   .Title {
       align-content: center;
-      background-color: #b8ccaf;
+      background-color: #426151;
       color: black;
       font-family: 'Amatic SC', cursive;
       font-style: 700;
@@ -395,16 +451,28 @@ h3 {
   .Content {
       font-size: 20px;
       margin-top: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
 
   h3 {
-    align-content: center;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   footer {
     padding-top: 25px;
+    }
+
+    #link {
+      color: #426151;
+      font-weight: bold;
+    }
+
+    #plug {
+      color: #426151;
+      font-weight: bold;
     }
   }
 
@@ -429,7 +497,7 @@ h3 {
     height: 55%;
     opacity: 0.75;
     width: 45%;
-    background-color: #b8ccaf;
+    background-color: #426151;
     margin: 25px;
     padding-bottom: 50px;
   }
@@ -438,12 +506,13 @@ h3 {
     font-family: 'Amatic SC', cursive;
     font-style: bold 700;
     font-size: 45px;
-    color: black;
+    color: white;
+    opacity: 1;
   }
 
   .IntroBoxText {
     font-size: 15px;
-    color: black;
+    color: white;
     opacity: 1;
   }
 
@@ -477,7 +546,7 @@ h3 {
 
   .Title {
       align-content: center;
-      background-color: #b8ccaf;
+      background-color: #426151;
       color: black;
       font-family: 'Amatic SC', cursive;
       font-style: 700;
@@ -490,17 +559,30 @@ h3 {
   .Content {
       font-size: 20px;
       margin-top: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
 
   h3 {
-    align-content: center;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   footer {
     padding-top: 25px;
     }
+
+    #link {
+      color: #426151;
+      font-weight: bold;
+    }
+
+    #plug {
+      color: #426151;
+      font-weight: bold;
+    }
+
   }
 
 @media (min-width: 960px) and (max-width: 1200px) {
@@ -524,7 +606,7 @@ h3 {
     height: 100%;
     opacity: 0.75;
     width: 28%;
-    background-color: #b8ccaf;
+    background-color: #426151;
     margin: 25px;
     padding: 20px 10px;
   }
@@ -533,12 +615,13 @@ h3 {
     font-family: 'Amatic SC', cursive;
     font-style: bold 700;
     font-size: 48px;
-    color: black;
+    color: white;
+    opacity: 1;
   }
 
   .IntroBoxText {
     font-size: 20px;
-    color: black;
+    color: white;
     opacity: 1;
   }
 
@@ -572,7 +655,7 @@ h3 {
 
   .Title {
       align-content: center;
-      background-color: #b8ccaf;
+      background-color: #426151;
       color: black;
       font-family: 'Amatic SC', cursive;
       font-style: 700;
@@ -585,17 +668,30 @@ h3 {
   .Content {
       font-size: 20px;
       margin-top: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
 
   h3 {
-    align-content: center;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   footer {
     padding-top: 25px;
     }
+
+    #link {
+      color: #426151;
+      font-weight: bold;
+    }
+
+    #plug {
+      color: #426151;
+      font-weight: bold;
+    }
+
   }
 
   @media (min-width: 1200px) {
@@ -643,11 +739,13 @@ h3 {
     a:link {
       text-decoration: none;
       color: white;
+      opacity: 1;
     }
 
     a:visited {
       text-decoration: none;
       color: white;
+      opacity: 1;
     }
 
     .FloralBackground {
@@ -737,7 +835,7 @@ h3 {
       height: 70%;
       opacity: 0.75;
       width: 28%;
-      background-color: #b8ccaf;
+      background-color: #426151;
       margin: 25px;
       padding: 20px 10px;
     }
@@ -746,21 +844,22 @@ h3 {
       font-family: 'Amatic SC', cursive;
       font-style: bold 700;
       font-size: 48px;
-      color: black;
+      color: white;
+      opacity: 1;
     }
 
     .IntroBoxText {
       font-size: 20px;
-      color: black;
+      color: white;
       opacity: 1;
     }
 
     .section_3 {
-      height: 300px;
+      height: auto;
     }
 
     h2 {
-      background-color: #b8ccaf;
+      background-color: #426151;
       color: black;
       font-family: 'Amatic SC', cursive;
       font-style: 700;
@@ -771,7 +870,7 @@ h3 {
     }
 
     .FoodTitle {
-      background-color: #b8ccaf;
+      background-color: #426151;
       color: black;
       font-family: 'Amatic SC', cursive;
       font-style: 700;
@@ -782,8 +881,8 @@ h3 {
     }
 
     .VegTitle {
-      background-color: #b8ccaf;
-      color: black;
+      background-color: #426151;
+      color: white;
       font-family: 'Amatic SC', cursive;
       font-style: 700;
       font-size: 60px;
@@ -799,7 +898,7 @@ h3 {
       height: 200px;
       width: auto;
       text-align: center;
-      padding-top: 150px;
+      padding-top: 250px;
       padding-bottom: 0px;
       color: white;
       font-family: 'Oswald', sans-serif;
@@ -813,5 +912,15 @@ h3 {
       font-size: 20px;
       text-align: center;
       color: white;
+    }
+
+    #link {
+      color: #426151;
+      font-weight: bold;
+    }
+
+    #plug {
+      color: #426151;
+      font-weight: bold;
     }
   }
