@@ -24,6 +24,18 @@ p {
   margin-top: 0;
 }
 
+#head {
+  position: relative;
+}
+
+#head.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 15;
+}
+
+
 ul {
   background-color: #426151;
   list-style: none;
@@ -234,10 +246,13 @@ h3 {
   text-align: center;
 }
 
-.ContactInfo {
-  font-size: 20px;
-  text-align: center;
-  color: white;
+  .ContactInfo {
+    font-size: 20px;
+    text-align: center;
+    display: inline;
+    color: white;
+    padding: 5px;
+  }
 }
 
 #link {
@@ -911,7 +926,9 @@ h3 {
     .ContactInfo {
       font-size: 20px;
       text-align: center;
+      display: inline;
       color: white;
+      padding: 2px;
     }
 
     #link {

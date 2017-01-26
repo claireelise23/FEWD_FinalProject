@@ -5,36 +5,21 @@ $(document).ready(function(){
     });
 });
 
+// Waypoint code
 var headerWaypoint = new Waypoint({
-  element: document.getElementById('OS'),
-  handler: function(direction) {
-    console.log('bodie')
-    if (direction === 'down') {
-      // $('.stickyheader').removeClass('displaynone');
-      $('#head').delay(200).fadeIn();
-    }
-  }
-  // ,
-  // offset: 350
-});
-
-////////////
-var headerWaypoint = new Waypoint({
-  element: document.getElementById('marker'),
+  element: document.getElementById('head'),
   handler: function(direction) {
     console.log('test')
     if (direction === 'down') {
-      // $('.stickyheader').removeClass('displaynone');
-      $('#head').delay(200).fadeIn();
+      $('#head').addClass('fixed');
     }
-    // if (direction === 'up') {
-    //   $('#head').delay(500).fadeOut();
-    // }
+    if (direction === 'up') {
+      $('#head').removeClass('fixed');
+    }
   }
-  // ,
-  // offset: 350
 });
 
+// Navigation Code
 $("#OurStory").click(function() {
   console.log("test");
   $("html, body").animate({ scrollTop: $("#OS").offset().top}, "slow");
